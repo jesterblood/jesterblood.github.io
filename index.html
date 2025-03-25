@@ -1,12 +1,77 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basit Web Sayfası</title>
+    <title>Cartoon Network Characters</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Merhaba, Dünya!</h1>
-    <p>Bu, basit bir HTML sayfasıdır.</p>
+    <header>
+        <h1>Cartoon Network Characters</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#ben10">Ben 10</a></li>
+            <li><a href="#adventure-time">Adventure Time</a></li>
+            <li><a href="#regular-show">Regular Show</a></li>
+            <li><a href="#gumball">Gumball</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="ben10">
+            <h2>Ben 10</h2>
+            <div class="character">
+                <img src="images/ben.png" alt="Ben Tennyson">
+                <p><strong>Ben Tennyson</strong> - Omnitrix ile uzaylılara dönüşebilen genç kahraman.</p>
+            </div>
+            <div class="character">
+                <img src="images/gwen.png" alt="Gwen Tennyson">
+                <p><strong>Gwen Tennyson</strong> - Büyü yeteneklerine sahip Ben'in kuzeni.</p>
+            </div>
+        </section>
+
+        <section id="adventure-time">
+            <h2>Adventure Time</h2>
+            <div class="character">
+                <img src="images/finn.png" alt="Finn the Human">
+                <p><strong>Finn</strong> - Ooo Diyarı’nın kahramanı.</p>
+            </div>
+            <div class="character">
+                <img src="images/jake.png" alt="Jake the Dog">
+                <p><strong>Jake</strong> - Şekil değiştirebilen Finn’in en iyi arkadaşı.</p>
+            </div>
+        </section>
+
+        <section id="regular-show">
+            <h2>Regular Show</h2>
+            <div class="character">
+                <img src="images/mordecai.png" alt="Mordecai">
+                <p><strong>Mordecai</strong> - Parkta çalışan mavi alakarga.</p>
+            </div>
+            <div class="character">
+                <img src="images/rigby.png" alt="Rigby">
+                <p><strong>Rigby</strong> - Mordecai’in tembel rakun arkadaşı.</p>
+            </div>
+        </section>
+
+        <section id="gumball">
+            <h2>The Amazing World of Gumball</h2>
+            <div class="character">
+                <img src="images/gumball.png" alt="Gumball Watterson">
+                <p><strong>Gumball</strong> - Eğlenceli ve yaramaz bir mavi kedi.</p>
+            </div>
+            <div class="character">
+                <img src="images/darwin.png" alt="Darwin Watterson">
+                <p><strong>Darwin</strong> - Eskiden bir balık olan Gumball’ın en iyi arkadaşı.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Cartoon Network Fan Site</p>
+    </footer>
 </body>
 </html>
